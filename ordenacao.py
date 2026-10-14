@@ -8,3 +8,5 @@ def quick_sort(valores):
 	maiores = [valor for valor in valores if valor > pivo]
 
 	return quick_sort(menores) + iguais + quick_sort(maiores)
+
+print(quick_sort([7, 3, 9, 1, 5]))
